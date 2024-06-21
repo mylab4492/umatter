@@ -102,7 +102,13 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
-
+.colorful-text {
+	font-size: 36px; /* Adjust the font size as needed */
+	font-weight: bold;
+	background: linear-gradient(45deg, #ff00ff, #00ffff, #ff0000);
+	-webkit-background-clip: text;
+	color: transparent;
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -757,12 +763,12 @@ section {
 }
 
 .services .icon-box:hover {
-  transform: translateY(-5px);
+  transform: translateX(-15px);
 }
 
 .services .icon {
   position: absolute;
-  left: -20px;
+  left: 0px;
   top: calc(50% - 30px);
 }
 
