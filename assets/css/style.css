@@ -929,8 +929,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #ff7f5d;
-  border: 2px solid #ff7f5d;
+  background: #00356b;
+  border: 2px solid #00356b;
 }
 
 /*--------------------------------------------------------------
@@ -1385,12 +1385,12 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #fffaf0;
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #ff7f5d;
+  color: #de5d83;
   float: left;
   width: 44px;
   height: 44px;
@@ -1425,7 +1425,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #ff7f5d;
+  background: #de5d83;
   color: #fff;
 }
 
