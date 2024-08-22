@@ -7,6 +7,22 @@
 */
 
 /*--------------------------------------------------------------
+# fonts
+--------------------------------------------------------------*/
+@font-face {
+  font-family: 'Brittany';
+  src: url('fonts/Brittany.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'PlayFair';
+  src: url('fonts/PlayfairDisplay-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Avenir';
+  src: url('fonts/AvenirLTStd-Roman.otf')  format('opentype'), /* Safari, Android, iOS */
+}
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
@@ -30,8 +46,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Playfair", sans-serif;
 }
+p {
+  font-family: "Avenir", sans-serif;
+}
+
 
 /*--------------------------------------------------------------
 # Preloader
@@ -105,7 +125,28 @@ h6 {
 .colorful-text {
 	font-size: 36px; /* Adjust the font size as needed */
 	font-weight: bold;
-	background: linear-gradient(45deg, #ff00ff, #00ffff, #ff0000);
+	background: linear-gradient(20deg, #ff7f5d, #de5d83, #006d6f);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.orange-text {
+	font-size: 36px; /* Adjust the font size as needed */
+	font-weight: bold;
+	background: #ff7f5d;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.turquoise-text {
+	font-size: 36px; /* Adjust the font size as needed */
+	font-weight: bold;
+	background: #006d6f;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+.pink-text {
+	font-size: 36px; /* Adjust the font size as needed */
+	font-weight: bold;
+	background: #de5d83;
 	-webkit-background-clip: text;
 	color: transparent;
 }
@@ -506,7 +547,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 1px;
@@ -565,6 +606,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  font-family: Brittany;
 }
 
 .section-title h2::after {
@@ -581,6 +623,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   color: #919191;
+  font-family: Avenir;
   font-size: 18px;
 }
 
@@ -595,6 +638,7 @@ section {
 .about .content p {
   font-weight: 100;
   font-size: 18px;
+  font-family: Avenir;
 }
 
 .about .content ul {
@@ -625,7 +669,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1px;
@@ -697,6 +741,7 @@ section {
   font-weight: 700;
   text-align: center;
   margin-bottom: 15px;
+  font-family: PlayFair;
 }
 
 .our-values .card-title a {
@@ -707,6 +752,7 @@ section {
 .our-values .card-text {
   color: #5e5e5e;
   font-size: 18px;
+  font-family: Avenir;
 }
 
 .our-values .read-more a {
@@ -1387,7 +1433,7 @@ section {
   width: 100%;
   background: #fffaf0;
 }
-
+/*#ff7f5d orange*/
 .contact .info i {
   font-size: 20px;
   color: #de5d83;
