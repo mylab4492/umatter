@@ -57,7 +57,7 @@ p {
 }
 b{
 	font-size:22px;
-	color: #fffaf0;
+	color: #006d6f;
 }
 
 
@@ -735,10 +735,41 @@ section {
   background-position: center center;
 }
 
-.our-values .card-body {
+.our-values .card-body-turquoise {
   z-index: 10;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px 30px;
+  border: 5px double rgba(0, 109, 111, 0.5);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+.our-values .card-body-pink {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  border: 5px dotted rgba(222, 93, 131, 0.5);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+.our-values .card-body-orange {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  border: 5px inset rgba(242, 143, 59, 0.5);
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+.our-values .card-body-blue {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  border: 5px groove rgba(0, 53, 107, 0.5);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   transition: ease-in-out 0.4s;
@@ -775,8 +806,20 @@ section {
   text-decoration: underline;
 }
 
-.our-values .card:hover .card-body {
+.our-values .card:hover .card-body-turquoise {
   background: #006d6f;
+}
+
+.our-values .card:hover .card-body-pink {
+  background: #de5d83;
+}
+
+.our-values .card:hover .card-body-orange {
+  background: #f28f3b;
+}
+
+.our-values .card:hover .card-body-blue {
+  background: #00356b;
 }
 
 .our-values .card:hover .read-more a,
@@ -822,7 +865,8 @@ section {
   position: relative;
   overflow: hidden;
   border-radius: 10px;
-  background: #f28f3b;
+  background: #fffaf0;
+  border:  6px double #006d6f;
   box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
   transition: all 0.3s ease-in-out;
   height: 95%;
@@ -852,11 +896,12 @@ section {
 }
 
 .services .title a {
-  color: #111;
+  color: #006d6f;
+  font-family: "Avenir", sans-serif;
 }
 
 .services .icon-box:hover .title a {
-  color: #fff;
+  color: #006d6f;
 }
 
 .services .description {
