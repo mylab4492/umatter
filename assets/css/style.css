@@ -507,7 +507,7 @@ b{
   background: url("../img/hero-bg.png") top center;
   background-size: cover;
   position: relative;
-  margin-bottom: -70px;
+  margin-bottom: -50px;
 }
 
 @media (max-width: 992px) {
